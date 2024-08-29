@@ -16,12 +16,16 @@ const Product_Inspection = () => {
                         </Link>
                     </li>
                     <li>
-                        <span>Capsicum</span>
+                        <span>Potato</span>
+                        <Link to="/pending_2">
                         <button>Pending</button>
+                        </Link>
                     </li>
                     <li>
                         <span>Tomato</span>
+                        <Link to="/pending_I">
                         <button>Pending</button>
+                        </Link>
                     </li>
                     <li>
                         <span>Carrot</span>
