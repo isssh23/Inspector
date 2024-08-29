@@ -9,6 +9,8 @@ import InspectedProductDetails2I from './Pages/Inspector/InspectedProductDetails
 import AddProductToInspectionI from './Pages/Inspector/AddProductToInspectionI';
 
 import ConnectWallet from './Components/ConnectWallet/ConnectWallet';
+import PendingI from './Pages/Inspector/PendingI';
+import Pending2 from './Pages/Inspector/Pending2';
 
 function App() {
   return (
@@ -22,9 +24,12 @@ function App() {
             <Route path="/inspectedproductdetails2_I" element={<InspectedProductDetails2I />} />
             <Route path="/addproducttoinspection_I" element={<AddProductToInspectionI/>} />
             <Route path="/connectwallet" element={<ConnectWallet />} />
+            <Route path = "/pending_I" element= {<PendingI />} />
+            <Route path = "/pending_2" element= {<Pending2 />} />
         </Routes>
     </BrowserRouter>
   );
 }
 
 export default App;
+
